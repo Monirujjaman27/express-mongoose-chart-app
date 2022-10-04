@@ -1,5 +1,5 @@
 function getlogin(req, res, next) {
-  res.render("index", {
+  res.render("main", {
     title: "login page",
   });
 }
